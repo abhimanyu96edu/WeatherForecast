@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_weight="1"
-    android:background="@drawable/dreamy"
+    android:background="@layout/gradient_3"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -393,7 +393,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="serif"
                     android:gravity="center"
-                    android:text="Clear"
+                    android:text="Day 1"
                     android:textSize="10sp"
                     android:textStyle="normal|bold" />
             </LinearLayout>
@@ -428,7 +428,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="serif"
                     android:gravity="center"
-                    android:text="Clear"
+                    android:text="Day 2"
                     android:textSize="10sp"
                     android:textStyle="normal|bold" />
             </LinearLayout>
@@ -463,7 +463,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="serif"
                     android:gravity="center"
-                    android:text="Clear"
+                    android:text="Day 3"
                     android:textSize="10sp"
                     android:textStyle="normal|bold" />
             </LinearLayout>
@@ -498,7 +498,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="serif"
                     android:gravity="center"
-                    android:text="Clear"
+                    android:text="Day 4"
                     android:textSize="10sp"
                     android:textStyle="normal|bold" />
             </LinearLayout>
@@ -533,7 +533,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="serif"
                     android:gravity="center"
-                    android:text="Clear"
+                    android:text="Day 5"
                     android:textSize="10sp"
                     android:textStyle="normal|bold" />
             </LinearLayout>
