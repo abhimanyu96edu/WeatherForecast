@@ -117,39 +117,11 @@ public class MainActivity extends Activity {
         }
 
         DownloadTask task = new DownloadTask();
-        //task.execute("http://api.openweathermap.org/data/2.5/weather?lat=51&lon=0&appid=aabd7edd6ed65a8eb1c5cfd90fbec64d");
-        task.execute("http://api.openweathermap.org/data/2.5/weather?lat="+String.valueOf(LocListener.lat)+"&lon="+String.valueOf(LocListener.lon)+"&appid=aabd7edd6ed65a8eb1c5cfd90fbec64d");
+        //task.execute("http://api.openweathermap.org/data/2.5/weather?lat=51&lon=0&appid=78ae06131c470ee9928e4f1eb87ffe43");
+        task.execute("http://api.openweathermap.org/data/2.5/weather?lat="+String.valueOf(LocListener.lat)+"&lon="+String.valueOf(LocListener.lon)+"&appid=78ae06131c470ee9928e4f1eb87ffe43");
 
     }
 
-    /*   @Override
-       public boolean onCreateOptionsMenu(Menu menu) {
-           // Inflate the menu; this adds items to the action bar if it is present.
-           getMenuInflater().inflate(R.menu.menu_main, menu);
-           return true;
-       }
-
-       @Override
-       public boolean onOptionsItemSelected(MenuItem item) {
-           // Handle action bar item clicks here. The action bar will
-           // automatically handle clicks on the Home/Up button, so long
-           // as you specify a parent activity in AndroidManifest.xml.
-           int id = item.getItemId();
-
-           //noinspection SimplifiableIfStatement
-           if (id == R.id.action_settings) {
-
-               refresh();
-               return true;
-           }
-           if (id == R.id.refresh) {
-
-               refresh();
-               return true;
-           }
-           return super.onOptionsItemSelected(item);
-       }
-   */
     public void addLocation(View view) {
 
         AlertDialog.Builder alert = new AlertDialog.Builder(this);

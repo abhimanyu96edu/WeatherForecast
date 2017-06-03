@@ -146,12 +146,12 @@ public class DownloadTask extends AsyncTask<String, Void, String> {
 
 //FORECAST CALLING
             Forecast forecast = new Forecast();
-            forecast.execute("http://api.openweathermap.org/data/2.5/forecast/daily?lat="+String.valueOf(LocListener.lat)+"&lon="+String.valueOf(LocListener.lon)+"&cnt=10&appid=aabd7edd6ed65a8eb1c5cfd90fbec64d");
+            forecast.execute("http://api.openweathermap.org/data/2.5/forecast/daily?lat="+String.valueOf(LocListener.lat)+"&lon="+String.valueOf(LocListener.lon)+"&cnt=10&appid=78ae06131c470ee9928e4f1eb87ffe43");
             //forecast.execute("http://api.openweathermap.org/data/2.5/forecast/daily?lat=51&lon=0&cnt=10&appid=aabd7edd6ed65a8eb1c5cfd90fbec64d");
         } catch (Exception e) {
             e.printStackTrace();
         }
-
+        dialog.hide();
     }
 
     void setDirection(double deg, double speed) {
