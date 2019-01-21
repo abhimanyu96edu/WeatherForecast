@@ -1,4 +1,6 @@
 # WeatherForecast
+# https://www.geeksforgeeks.org/parse-json-java/
+
 [{"key_value":"data_value"}]
 
 String data = jsonObject.getString("key_value"); //ERROR
