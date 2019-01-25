@@ -1,5 +1,6 @@
 # WeatherForecast
-# https://www.geeksforgeeks.org/parse-json-java/
+
+https://www.geeksforgeeks.org/parse-json-java/
 
 [{"key_value":"data_value"}]
 
@@ -9,5 +10,5 @@ When the value corresponding the key could be "NULL", we use optString which giv
 
 String data = jsonObject.optString("key_value", null);
 
-//FOR CHECKING WHETHER A JSON ARRAY IS NULL OR EMPTY
-if(jsonObject.isNull("jsonArray"))
+//FOR CHECKING WHETHER A JSON ARRAY IS NULL OR EMPTY //How to check the JSON response below for null array
+if(jsonObject.isNull("jsonArray[Key]"))
